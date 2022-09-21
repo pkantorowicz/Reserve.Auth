@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Reserve.Auth.Layers.Infrastructure</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Reserve.Auth.Layers.Application\Reserve.Auth.Layers.Application.csproj" />
+      <ProjectReference Include="..\Reserve.Auth.Layers.Domain\Reserve.Auth.Layers.Domain.csproj" />
+    </ItemGroup>
+
+</Project>
